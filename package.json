@@ -1,0 +1,14 @@
+{
+  "name": "react-js-jsx-and-css-mastering-front-end-development-jnyambu",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./my-react-app run dev",
+    "build": "npm --prefix ./my-react-app run build",
+    "start": "npm --prefix ./my-react-app run dev",
+    "install:app": "npm --prefix ./my-react-app install"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14"
+  }
+}
