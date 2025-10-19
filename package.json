@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "npm --prefix ./my-react-app run dev",
-    "build": "npm --prefix ./my-react-app run build",
+    "build": "npm --prefix ./my-react-app install --include=dev && npm --prefix ./my-react-app run build",
+    "build:vercel": "npm --prefix ./my-react-app install --include=dev && npm --prefix ./my-react-app run build",
     "start": "npm --prefix ./my-react-app run dev",
     "install:app": "npm --prefix ./my-react-app install"
   },

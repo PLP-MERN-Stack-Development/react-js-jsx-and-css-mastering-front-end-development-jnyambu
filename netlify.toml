@@ -1,0 +1,8 @@
+[build]
+  publish = "my-react-app/dist"
+  command = "npm --prefix ./my-react-app run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
